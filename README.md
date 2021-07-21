@@ -1,7 +1,4 @@
 ### Hi there 👋
-![mabanierelinkdin4](https://user-images.githubusercontent.com/81431557/126453100-037ba378-591d-4f94-9c86-26f39843ce8b.png)
-
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=voyagebagage)](https://github.com/anuraghazra/github-readme-stats)
 
 
 <!--
