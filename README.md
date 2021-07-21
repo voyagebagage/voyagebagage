@@ -1,5 +1,4 @@
 ### Hi there 👋
-![CV DEV](https://user-images.githubusercontent.com/81431557/126462262-7f89f41a-1f11-412d-8815-a95dd99adba8.png)
 
 
 <!--
