@@ -1,4 +1,4 @@
-                              🚧 Uploading my projects, and READmes everyday stay tune 🚧 
+                          🚧 Uploading my projects, and READmes everyday stay tune 🚧 
 
 <!-- ![CV DEV (8)2](https://user-images.githubusercontent.com/81431557/126508527-5ee5ac23-aaef-442b-a5d7-5717e5a7731e.png) -->
 <!-- ![pour github2](https://user-images.githubusercontent.com/81431557/126780223-718a3b3c-68bb-422d-a6ba-24096dbb8bee.png) -->
