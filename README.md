@@ -1,5 +1,5 @@
-                             🚧 Uploading my projects, and READmes everyday stay tune 🚧 
-
+                             🚧 Uploading my projects, and READmes everyday stay tune 🚧  
+![](https://komarev.com/ghpvc/?username=your-github-username&color=28F2C2&style=plastic)
 <!-- ![CV DEV (8)2](https://user-images.githubusercontent.com/81431557/126508527-5ee5ac23-aaef-442b-a5d7-5717e5a7731e.png) -->
 <!-- ![pour github2](https://user-images.githubusercontent.com/81431557/126780223-718a3b3c-68bb-422d-a6ba-24096dbb8bee.png) -->
 ![pour github2cropJPG](https://user-images.githubusercontent.com/81431557/126780770-55b8cc01-54b1-47b0-b782-765437c827bc.jpg)
