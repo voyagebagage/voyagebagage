@@ -12,8 +12,8 @@
 
 ⏬  <span> What I was working last on(pinned)</span> :[![gif2-happy-cow](https://user-images.githubusercontent.com/81431557/126635002-180c6193-ed6c-4e99-b57d-05c5fb8d2bf4.gif)](https://github.com/voyagebagage/oliv-happyCow-native)
 
-- 🔭 I’m currently updating that one ...
-https://github.com/voyagebagage/Marvel-API-React-Remake
+<!-- - 🔭 I’m currently updating that one ...
+https://github.com/voyagebagage/Marvel-API-React-Remake -->
 
 
 
