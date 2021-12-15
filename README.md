@@ -1,7 +1,7 @@
-                           🚧 Uploading my projects, and READmes everyday stay tune 🚧  
+<!--                            🚧 Uploading my projects, and READmes everyday stay tune 🚧  
 <!-- ![CV DEV (8)2](https://user-images.githubusercontent.com/81431557/126508527-5ee5ac23-aaef-442b-a5d7-5717e5a7731e.png) -->
 <!-- ![pour github2](https://user-images.githubusercontent.com/81431557/126780223-718a3b3c-68bb-422d-a6ba-24096dbb8bee.png) -->
-![pour github2cropJPG](https://user-images.githubusercontent.com/81431557/126780770-55b8cc01-54b1-47b0-b782-765437c827bc.jpg)
+<!-- ![pour github2cropJPG](https://user-images.githubusercontent.com/81431557/126780770-55b8cc01-54b1-47b0-b782-765437c827bc.jpg) -->
 
 
 
@@ -10,14 +10,19 @@
 
 ![](https://komarev.com/ghpvc/?username=your-github-voyagebagage&color=28F2C2&style=plastic) 
 
-⏬  <span> What I was working last on(pinned)</span> :[![gif2-happy-cow](https://user-images.githubusercontent.com/81431557/126635002-180c6193-ed6c-4e99-b57d-05c5fb8d2bf4.gif)](https://github.com/voyagebagage/oliv-happyCow-native)
+## <span> - 🔭  I’m currently working on a [dashboard](https://main.dcc5jfrf7panr.amplifyapp.com/) see the [demo](https://main.dcc5jfrf7panr.amplifyapp.com/)</span><br/>
+<br/>
+<br/>
+<br/>
+
+ <span>⏬  What I was working last on</span> :[![gif2-happy-cow](https://user-images.githubusercontent.com/81431557/126635002-180c6193-ed6c-4e99-b57d-05c5fb8d2bf4.gif)](https://github.com/voyagebagage/oliv-happyCow-native)
 
 <!-- - 🔭 I’m currently updating that one ...
 https://github.com/voyagebagage/Marvel-API-React-Remake -->
 
+#### - check out my other pinned projects
 
-
-[<p > => Direct Contact <= </p> ](wa.link/aq3tmo)
+[ <p >💬 💬 💬   &nbsp;&nbsp;&nbsp;=> Direct Contact <= &nbsp;&nbsp;  💬 💬 💬</p> ](wa.link/aq3tmo)
 <!-- ![<p height="30px" >WA BAR-CODE</p>](https://user-images.githubusercontent.com/81431557/127158158-8e8bd29d-de78-4af7-9a33-7275e990eb2f.png) -->
 
 <!--
