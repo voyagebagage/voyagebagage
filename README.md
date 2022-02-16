@@ -10,7 +10,7 @@
 
 ![](https://komarev.com/ghpvc/?username=your-github-voyagebagage&color=28F2C2&style=plastic) 
 
-## <span> - 🔭  I’m currently working on a [dashboard](https://main.dcc5jfrf7panr.amplifyapp.com/) see the [demo](https://main.dcc5jfrf7panr.amplifyapp.com/)</span><br/>
+## <span> - 🔭  I’m currently working on a [dashboard](https://github.com/voyagebagage/dashboard-gamification-demo) see the [demo](https://main.d6drwqj5lalip.amplifyapp.com/)</span><br/>
 <br/>
 <br/>
 <br/>
