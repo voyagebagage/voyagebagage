@@ -4,23 +4,39 @@
 <!-- ![pour github2cropJPG](https://user-images.githubusercontent.com/81431557/126780770-55b8cc01-54b1-47b0-b782-765437c827bc.jpg) -->
 
 
-
-<!-- <h3 align="right">Languages and Tools:</h3>
-<p align="right"> </a> <a href="https://expressjs.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a>  <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> <a href="https://heroku.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> </p> -->
+<!--
+<h3 align="right">Languages and Tools:</h3>
+<p align="right"> </a> <a href="https://expressjs.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a>  <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> <a href="https://heroku.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a>  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> </p> -->
 
 ![](https://komarev.com/ghpvc/?username=your-github-voyagebagage&color=28F2C2&style=plastic) 
 
-## <span> - 🔭  I’m currently working on a [dashboard](https://github.com/voyagebagage/dashboard-gamification-demo) see the [demo](https://main.d6drwqj5lalip.amplifyapp.com/)</span><br/>
+## <span> - 🔭  I’m currently working on a cross-platform app Expo-Nextjs on Tamagui :</span><br/>
+
+https://github.com/voyagebagage/voyagebagage/assets/81431557/194908ef-38a2-4f54-8bdf-a1dac4752da7
+
+https://github.com/voyagebagage/voyagebagage/assets/81431557/8011e5ef-103e-4ab6-8aaf-053cdc0ec468
+
+
+
+
+
+
+## AWS Project:
+
+<span>[dashboard](https://github.com/voyagebagage/dashboard-gamification-demo) see the [demo](https://main.d6drwqj5lalip.amplifyapp.com/)</span><br/>
 <br/>
 <br/>
 <br/>
 
- <span>⏬  What I was working last on</span> :[![gif2-happy-cow](https://user-images.githubusercontent.com/81431557/126635002-180c6193-ed6c-4e99-b57d-05c5fb8d2bf4.gif)](https://github.com/voyagebagage/oliv-happyCow-native)
+
+## other Native Project
+
+ <span>⏬ [![gif2-happy-cow](https://user-images.githubusercontent.com/81431557/126635002-180c6193-ed6c-4e99-b57d-05c5fb8d2bf4.gif)](https://github.com/voyagebagage/oliv-happyCow-native)
 
 <!-- - 🔭 I’m currently updating that one ...
 https://github.com/voyagebagage/Marvel-API-React-Remake -->
 
-#### - check out my other pinned projects
+####  check out my other pinned projects
 
 [ <p >💬 💬 💬   &nbsp;&nbsp;&nbsp;=> Direct Contact <= &nbsp;&nbsp;  💬 💬 💬</p> ](wa.link/aq3tmo)
 <!-- ![<p height="30px" >WA BAR-CODE</p>](https://user-images.githubusercontent.com/81431557/127158158-8e8bd29d-de78-4af7-9a33-7275e990eb2f.png) -->
