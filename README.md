@@ -24,9 +24,9 @@ https://github.com/voyagebagage/voyagebagage/assets/81431557/8011e5ef-103e-4ab6-
 ## AWS Project:
 
 <span>[dashboard](https://github.com/voyagebagage/dashboard-gamification-demo) see the [demo](https://main.d6drwqj5lalip.amplifyapp.com/)</span><br/>
-<br/>
-<br/>
-<br/>
+
+![DASHBOARD](https://github.com/voyagebagage/dashboard-gamification-demo/assets/81431557/f3d77329-e5b5-4b91-b160-7586c0415de1)
+
 
 
 ## other Native Project
@@ -38,6 +38,7 @@ https://github.com/voyagebagage/Marvel-API-React-Remake -->
 
 ####  check out my other pinned projects
 
+#### contact
 [ <p >💬 💬 💬   &nbsp;&nbsp;&nbsp;=> Direct Contact <= &nbsp;&nbsp;  💬 💬 💬</p> ](wa.link/aq3tmo)
 <!-- ![<p height="30px" >WA BAR-CODE</p>](https://user-images.githubusercontent.com/81431557/127158158-8e8bd29d-de78-4af7-9a33-7275e990eb2f.png) -->
 
