@@ -10,9 +10,7 @@
 
 ![](https://komarev.com/ghpvc/?username=your-github-voyagebagage&color=28F2C2&style=plastic) 
 
-## Hire Me
-
-
+## <a href="https://voyagebagage.github.io/hourly-rate/" target="_blank">View Today's Work Hour Rate</a>
 
 ## <span> - 🔭  I'm currently working on a cross-platform app Expo-Nextjs on Tamagui :</span><br/>
 
