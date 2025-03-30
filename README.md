@@ -12,7 +12,7 @@
 
 ## Hire Me
 
-[Current hourly rate](https://voyagebagage.github.io/hourly-rate/) - *Live rate based on RUB/USD exchange rate*
+
 
 ## <span> - 🔭  I'm currently working on a cross-platform app Expo-Nextjs on Tamagui :</span><br/>
 
