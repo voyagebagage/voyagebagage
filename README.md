@@ -17,8 +17,5 @@ Currently working with React, Next.js, React Native, and n8n automation.
 ## Stack
 React • Next.js • React Native • Rest Apis • Graphql • SQlite • Convex • AWS • n8n
 
-## Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=voyagebagage&show_icons=true&theme=dark&hide_border=true)
-
 
 
