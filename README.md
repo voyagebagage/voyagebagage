@@ -22,7 +22,6 @@ React • Next.js • React Native • Rest Apis • Graphql • SQlite • Conv
 
 ---
 
-Available for freelance work • [current rate](https://voyagebagage.github.io/hourly-rate/)
 ![](https://komarev.com/ghpvc/?username=voyagebagage&color=28F2C2&style=plastic)
 
 
