@@ -20,8 +20,5 @@ React • Next.js • React Native • Rest Apis • Graphql • SQlite • Conv
 ## Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=voyagebagage&show_icons=true&theme=dark&hide_border=true)
 
----
-
-![](https://komarev.com/ghpvc/?username=voyagebagage&color=28F2C2&style=plastic)
 
 
