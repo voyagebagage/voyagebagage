@@ -99,18 +99,6 @@ Since AI tooling exploded, I've gone deep — not just as a user, but as a build
 🧪 Dev environments wired for AI-first development
 🌐 Full-stack apps with AI deeply integrated — not bolted on
 ```
-
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-![voyagebagage's GitHub stats](https://github-readme-stats.vercel.app/api?username=voyagebagage&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=voyagebagage&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
-
 ---
 
 <div align="center">
