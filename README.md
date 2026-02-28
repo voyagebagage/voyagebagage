@@ -6,7 +6,7 @@
 
 *From crafting pixel-perfect mobile apps to orchestrating autonomous agent pipelines*
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=AI+Workflow+Architect;Agentic+Systems+Builder;Full-Stack+%2B+AI+Engineer;Claude+%7C+n8n+%7C+MCP+%7C+Codex+Native)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Full-Stack+%E2%86%92+AI+Systems+Engineer;Claude+%7C+MCP+%7C+Claude+Code;n8n+%7C+Agentic+%7C+Multi-Agent;Telegram+%7C+LINE+%7C+Bot+Architect;Convex+%7C+Clerk+%7C+SolidJS)](https://git.io/typing-svg)
 
 </div>
 
@@ -70,6 +70,19 @@ Since AI tooling exploded, I've gone deep — not just as a user, but as a build
 </div>
 
 ---
+## ⭐ Current Favourite Stack
+
+<div align="center">
+
+| | Tool | Why |
+|---|---|---|
+| ⚡ | **SolidJS** | Fine-grained reactivity, no virtual DOM, insanely fast |
+| 🗄️ | **Convex** | Real-time backend + DB in one — pairs perfectly with AI apps |
+| 🔐 | **Clerk** | Auth done right, zero boilerplate, works out of the box |
+
+> *The stack I reach for when I want to ship fast and scale clean.*
+
+</div>
 
 ## 🛠️ Tech I Work With
 
@@ -78,12 +91,14 @@ Since AI tooling exploded, I've gone deep — not just as a user, but as a build
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Convex](https://img.shields.io/badge/Convex-EE342F?style=for-the-badge&logo=convex&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![SolidJS](https://img.shields.io/badge/SolidJS-2C4F7C?style=for-the-badge&logo=solid&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
