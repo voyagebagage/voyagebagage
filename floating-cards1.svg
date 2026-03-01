@@ -7,9 +7,12 @@
       .label { font-family: 'Segoe UI', sans-serif; font-size: 13px; font-weight: 600; fill: #e2e8f0; }
       .sub   { font-family: 'Segoe UI', sans-serif; font-size: 10px; fill: #94a3b8; }
 
-      .row1 { animation: goLeft  20s linear infinite; }
-      .row2 { animation: goRight 14s linear infinite; }
-      .row3 { animation: goLeft  10s linear infinite; }
+      /* Row 1: AI agents — slow left */
+      .row1 { animation: goLeft 45s linear infinite; }
+      /* Row 2: Bots and apps — slow right */
+      .row2 { animation: goRight 35s linear infinite; }
+      /* Row 3: Frontend stack — slow left */
+      .row3 { animation: goLeft 28s linear infinite; }
 
       @keyframes goLeft {
         0%   { transform: translateX(0px); }
@@ -26,8 +29,7 @@
 
   <g clip-path="url(#bounds)">
 
-    <!-- ROW 1 — slow, left (y=12) -->
-    <!-- Claude Code, Self-Healing, Convex, n8n -->
+    <!-- ROW 1 — AI Agents ecosystem (y=12) -->
     <g class="row1">
       <g transform="translate(0,12)">
         <rect width="155" height="54" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
@@ -36,18 +38,18 @@
         <text x="34" y="38" class="sub">Agentic coding</text>
       </g>
       <g transform="translate(175,12)">
-        <rect width="175" height="54" rx="12" fill="#0f2027" stroke="#00D4FF" stroke-width="1"/>
-        <text x="12" y="23" font-size="15">🛡️</text>
-        <text x="34" y="23" class="label">Self-Healing CI/CD</text>
-        <text x="34" y="38" class="sub">Autonomous DevOps</text>
+        <rect width="155" height="54" rx="12" fill="#162030" stroke="#00D4FF" stroke-width="1"/>
+        <text x="12" y="23" font-size="15">🧠</text>
+        <text x="34" y="23" class="label">Claude + MCP</text>
+        <text x="34" y="38" class="sub">Tool orchestration</text>
       </g>
-      <g transform="translate(370,12)">
-        <rect width="135" height="54" rx="12" fill="#1a1a2e" stroke="#EE342F" stroke-width="1"/>
-        <text x="12" y="23" font-size="15">🗄️</text>
-        <text x="34" y="23" class="label">Convex</text>
-        <text x="34" y="38" class="sub">Real-time backend</text>
+      <g transform="translate(350,12)">
+        <rect width="175" height="54" rx="12" fill="#1a2e1a" stroke="#22c55e" stroke-width="1"/>
+        <text x="12" y="23" font-size="15">🐍</text>
+        <text x="34" y="23" class="label">Agentic Workflows</text>
+        <text x="34" y="38" class="sub">Python agent systems</text>
       </g>
-      <g transform="translate(525,12)">
+      <g transform="translate(545,12)">
         <rect width="150" height="54" rx="12" fill="#1e1a2e" stroke="#4c1d95" stroke-width="1"/>
         <text x="12" y="23" font-size="15">⚙️</text>
         <text x="34" y="23" class="label">n8n Workflows</text>
@@ -61,18 +63,18 @@
         <text x="34" y="38" class="sub">Agentic coding</text>
       </g>
       <g transform="translate(995,12)">
-        <rect width="175" height="54" rx="12" fill="#0f2027" stroke="#00D4FF" stroke-width="1"/>
-        <text x="12" y="23" font-size="15">🛡️</text>
-        <text x="34" y="23" class="label">Self-Healing CI/CD</text>
-        <text x="34" y="38" class="sub">Autonomous DevOps</text>
+        <rect width="155" height="54" rx="12" fill="#162030" stroke="#00D4FF" stroke-width="1"/>
+        <text x="12" y="23" font-size="15">🧠</text>
+        <text x="34" y="23" class="label">Claude + MCP</text>
+        <text x="34" y="38" class="sub">Tool orchestration</text>
       </g>
-      <g transform="translate(1190,12)">
-        <rect width="135" height="54" rx="12" fill="#1a1a2e" stroke="#EE342F" stroke-width="1"/>
-        <text x="12" y="23" font-size="15">🗄️</text>
-        <text x="34" y="23" class="label">Convex</text>
-        <text x="34" y="38" class="sub">Real-time backend</text>
+      <g transform="translate(1170,12)">
+        <rect width="175" height="54" rx="12" fill="#1a2e1a" stroke="#22c55e" stroke-width="1"/>
+        <text x="12" y="23" font-size="15">🐍</text>
+        <text x="34" y="23" class="label">Agentic Workflows</text>
+        <text x="34" y="38" class="sub">Python agent systems</text>
       </g>
-      <g transform="translate(1345,12)">
+      <g transform="translate(1365,12)">
         <rect width="150" height="54" rx="12" fill="#1e1a2e" stroke="#4c1d95" stroke-width="1"/>
         <text x="12" y="23" font-size="15">⚙️</text>
         <text x="34" y="23" class="label">n8n Workflows</text>
@@ -80,8 +82,7 @@
       </g>
     </g>
 
-    <!-- ROW 2 — medium, RIGHT (y=84) -->
-    <!-- Bots, Agentic+Python, Antigravity -->
+    <!-- ROW 2 — Bots, apps, DevOps (y=84) going RIGHT -->
     <g class="row2">
       <g transform="translate(0,84)">
         <rect width="185" height="54" rx="12" fill="#0c2a3a" stroke="#2CA5E0" stroke-width="1"/>
@@ -90,47 +91,52 @@
         <text x="34" y="38" class="sub">Bot architecture</text>
       </g>
       <g transform="translate(205,84)">
-        <rect width="185" height="54" rx="12" fill="#1a2e1a" stroke="#22c55e" stroke-width="1"/>
-        <text x="12" y="23" font-size="15">🐍</text>
-        <text x="34" y="23" class="label">Agentic Workflows</text>
-        <text x="34" y="38" class="sub">Python agent systems</text>
+        <rect width="175" height="54" rx="12" fill="#0f2027" stroke="#00D4FF" stroke-width="1"/>
+        <text x="12" y="23" font-size="15">🛡️</text>
+        <text x="34" y="23" class="label">Self-Healing CI/CD</text>
+        <text x="34" y="38" class="sub">Autonomous DevOps</text>
       </g>
-      <g transform="translate(410,84)">
+      <g transform="translate(400,84)">
         <rect width="145" height="54" rx="12" fill="#1f1a10" stroke="#f59e0b" stroke-width="1"/>
         <text x="12" y="23" font-size="15">🚀</text>
         <text x="34" y="23" class="label">Antigravity</text>
         <text x="34" y="38" class="sub">Next-gen tooling</text>
       </g>
-      <g transform="translate(575,84)">
-        <rect width="185" height="54" rx="12" fill="#0c2a3a" stroke="#2CA5E0" stroke-width="1"/>
-        <text x="12" y="23" font-size="15">💬</text>
-        <text x="34" y="23" class="label">Telegram · LINE · WA</text>
-        <text x="34" y="38" class="sub">Bot architecture</text>
+      <g transform="translate(565,84)">
+        <rect width="135" height="54" rx="12" fill="#1a1a2e" stroke="#EE342F" stroke-width="1"/>
+        <text x="12" y="23" font-size="15">🗄️</text>
+        <text x="34" y="23" class="label">Convex</text>
+        <text x="34" y="38" class="sub">Real-time backend</text>
       </g>
       <!-- repeat -->
       <g transform="translate(820,84)">
-        <rect width="185" height="54" rx="12" fill="#1a2e1a" stroke="#22c55e" stroke-width="1"/>
-        <text x="12" y="23" font-size="15">🐍</text>
-        <text x="34" y="23" class="label">Agentic Workflows</text>
-        <text x="34" y="38" class="sub">Python agent systems</text>
-      </g>
-      <g transform="translate(1025,84)">
-        <rect width="145" height="54" rx="12" fill="#1f1a10" stroke="#f59e0b" stroke-width="1"/>
-        <text x="12" y="23" font-size="15">🚀</text>
-        <text x="34" y="23" class="label">Antigravity</text>
-        <text x="34" y="38" class="sub">Next-gen tooling</text>
-      </g>
-      <g transform="translate(1190,84)">
         <rect width="185" height="54" rx="12" fill="#0c2a3a" stroke="#2CA5E0" stroke-width="1"/>
         <text x="12" y="23" font-size="15">💬</text>
         <text x="34" y="23" class="label">Telegram · LINE · WA</text>
         <text x="34" y="38" class="sub">Bot architecture</text>
       </g>
+      <g transform="translate(1025,84)">
+        <rect width="175" height="54" rx="12" fill="#0f2027" stroke="#00D4FF" stroke-width="1"/>
+        <text x="12" y="23" font-size="15">🛡️</text>
+        <text x="34" y="23" class="label">Self-Healing CI/CD</text>
+        <text x="34" y="38" class="sub">Autonomous DevOps</text>
+      </g>
+      <g transform="translate(1220,84)">
+        <rect width="145" height="54" rx="12" fill="#1f1a10" stroke="#f59e0b" stroke-width="1"/>
+        <text x="12" y="23" font-size="15">🚀</text>
+        <text x="34" y="23" class="label">Antigravity</text>
+        <text x="34" y="38" class="sub">Next-gen tooling</text>
+      </g>
+      <g transform="translate(1385,84)">
+        <rect width="135" height="54" rx="12" fill="#1a1a2e" stroke="#EE342F" stroke-width="1"/>
+        <text x="12" y="23" font-size="15">🗄️</text>
+        <text x="34" y="23" class="label">Convex</text>
+        <text x="34" y="38" class="sub">Real-time backend</text>
+      </g>
     </g>
 
-    <!-- ROW 3 — fast, left (y=156) -->
-    <!-- SolidJS, React Native, Next.js, TypeScript -->
-    <g class="row3" transform="translate(-300,0)">
+    <!-- ROW 3 — Frontend stack (y=156) -->
+    <g class="row3" transform="translate(-250,0)">
       <g transform="translate(0,156)">
         <rect width="120" height="54" rx="12" fill="#1a2035" stroke="#2C4F7C" stroke-width="1"/>
         <text x="12" y="23" font-size="15">⚡</text>
@@ -141,7 +147,7 @@
         <rect width="145" height="54" rx="12" fill="#1a1e2e" stroke="#3b82f6" stroke-width="1"/>
         <text x="12" y="23" font-size="15">📱</text>
         <text x="34" y="23" class="label">React Native</text>
-        <text x="34" y="38" class="sub">Cross-platform</text>
+        <text x="34" y="38" class="sub">Cross-platform apps</text>
       </g>
       <g transform="translate(305,156)">
         <rect width="120" height="54" rx="12" fill="#111827" stroke="#e5e7eb" stroke-width="1"/>
@@ -150,12 +156,12 @@
         <text x="34" y="38" class="sub">Full-stack React</text>
       </g>
       <g transform="translate(445,156)">
-        <rect width="135" height="54" rx="12" fill="#172035" stroke="#007ACC" stroke-width="1"/>
+        <rect width="140" height="54" rx="12" fill="#172035" stroke="#007ACC" stroke-width="1"/>
         <text x="12" y="23" font-size="15">🔷</text>
         <text x="34" y="23" class="label">TypeScript</text>
         <text x="34" y="38" class="sub">Type-safe everything</text>
       </g>
-      <g transform="translate(600,156)">
+      <g transform="translate(605,156)">
         <rect width="120" height="54" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
         <text x="12" y="23" font-size="15">🐳</text>
         <text x="34" y="23" class="label">Docker</text>
@@ -172,7 +178,7 @@
         <rect width="145" height="54" rx="12" fill="#1a1e2e" stroke="#3b82f6" stroke-width="1"/>
         <text x="12" y="23" font-size="15">📱</text>
         <text x="34" y="23" class="label">React Native</text>
-        <text x="34" y="38" class="sub">Cross-platform</text>
+        <text x="34" y="38" class="sub">Cross-platform apps</text>
       </g>
       <g transform="translate(1125,156)">
         <rect width="120" height="54" rx="12" fill="#111827" stroke="#e5e7eb" stroke-width="1"/>
@@ -181,12 +187,12 @@
         <text x="34" y="38" class="sub">Full-stack React</text>
       </g>
       <g transform="translate(1265,156)">
-        <rect width="135" height="54" rx="12" fill="#172035" stroke="#007ACC" stroke-width="1"/>
+        <rect width="140" height="54" rx="12" fill="#172035" stroke="#007ACC" stroke-width="1"/>
         <text x="12" y="23" font-size="15">🔷</text>
         <text x="34" y="23" class="label">TypeScript</text>
         <text x="34" y="38" class="sub">Type-safe everything</text>
       </g>
-      <g transform="translate(1420,156)">
+      <g transform="translate(1425,156)">
         <rect width="120" height="54" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
         <text x="12" y="23" font-size="15">🐳</text>
         <text x="34" y="23" class="label">Docker</text>
