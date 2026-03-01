@@ -13,7 +13,7 @@
 ---
 
 <div align="center">
-  <img src="./floating-cards.svg" alt="Tech Stack" />
+  <img src="https://raw.githubusercontent.com/voyagebagage/voyagebagage/main/floating-cards.svg" alt="Tech Stack" />
 </div>
 
 ---
