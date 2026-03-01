@@ -35,8 +35,8 @@
         <text x="38" y="23" class="label">Self-Healing CI/CD</text>
         <text x="38" y="38" class="sub">Autonomous DevOps</text>
       </g>
-      <g transform="translate(390, 14)">
-        <rect width="140" height="54" rx="12" fill="#fffed29" stroke="#FFED29" stroke-width="1"/>
+      <g transform="translate(380, 14)">
+        <rect width="160" height="54" rx="12" fill="#fffed29" stroke="#FFED29" stroke-width="1"/>
         <text x="14" y="23" font-size="16">🤖</text>
         <text x="38" y="23" class="label">Agentic workflows</text>
         <text x="38" y="38" class="sub">Python code</text>
@@ -54,7 +54,7 @@
         <text x="38" y="38" class="sub">Real-time backend</text>
       </g>
       <!-- Seamless repeat -->
-      <g transform="translate(820, 14)">
+      <g transform="translate(840, 14)">
         <rect width="160" height="54" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
         <text x="14" y="23" font-size="16">🤖</text>
         <text x="38" y="23" class="label">Claude Code</text>
