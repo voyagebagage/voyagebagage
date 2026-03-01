@@ -9,7 +9,7 @@
         ry: 14;
       }
 
-      /* Different float speeds & directions */
+     /* Different float speeds and directions */
       .float-1 {
         animation: float1 5s ease-in-out infinite;
       }
