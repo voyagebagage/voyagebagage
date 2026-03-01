@@ -162,7 +162,7 @@
         <text x="34" y="38" class="sub">Type-safe everything</text>
       </g>
       <g transform="translate(605,156)">
-        <rect width="120" height="54" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+        <rect width="140" height="54" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
         <text x="12" y="23" font-size="15">🐳</text>
         <text x="34" y="23" class="label">Docker</text>
         <text x="34" y="38" class="sub">Container workflows</text>
