@@ -36,16 +36,22 @@
         <text x="38" y="38" class="sub">Autonomous DevOps</text>
       </g>
       <g transform="translate(390, 14)">
-        <rect width="140" height="54" rx="12" fill="#1a1a2e" stroke="#EE342F" stroke-width="1"/>
-        <text x="14" y="23" font-size="16">🗄️</text>
-        <text x="38" y="23" class="label">Convex</text>
-        <text x="38" y="38" class="sub">Real-time backend</text>
+        <rect width="140" height="54" rx="12" fill="#fffed29" stroke="#FFED29" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">🤖</text>
+        <text x="38" y="23" class="label">Agentic workflows</text>
+        <text x="38" y="38" class="sub">Python code</text>
       </g>
       <g transform="translate(560, 14)">
         <rect width="150" height="54" rx="12" fill="#1e1a2e" stroke="#4c1d95" stroke-width="1"/>
         <text x="14" y="23" font-size="16">⚙️</text>
         <text x="38" y="23" class="label">n8n Workflows</text>
         <text x="38" y="38" class="sub">Multi-agent pipes</text>
+      </g>
+      <g transform="translate(690, 14)">
+        <rect width="140" height="54" rx="12" fill="#1a1a2e" stroke="#EE342F" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">🗄️</text>
+        <text x="38" y="23" class="label">Convex</text>
+        <text x="38" y="38" class="sub">Real-time backend</text>
       </g>
       <!-- Seamless repeat -->
       <g transform="translate(820, 14)">
