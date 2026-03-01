@@ -10,7 +10,7 @@
 
 </div>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/voyagebagage/voyagebagage/main/floating-cards.svg" alt="Tech Stack" />
+  <img src="https://raw.githubusercontent.com/voyagebagage/voyagebagage/main/floating-cards1.svg" alt="Tech Stack" />
 </div>
 
 ---
