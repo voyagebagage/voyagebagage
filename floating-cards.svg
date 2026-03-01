@@ -1,115 +1,143 @@
-<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" width="800" height="200">
+<svg viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg" width="800" height="180">
   <defs>
+    <clipPath id="bounds">
+      <rect width="800" height="180"/>
+    </clipPath>
     <style>
-      .card {
-        filter: drop-shadow(0 4px 16px rgba(0,0,0,0.35));
-      }
-      .card rect {
-        rx: 14;
-        ry: 14;
-      }
-
-     /* Different float speeds and directions */
-      .float-1 {
-        animation: float1 5s ease-in-out infinite;
-      }
-      .float-2 {
-        animation: float2 7s ease-in-out infinite;
-      }
-      .float-3 {
-        animation: float3 6s ease-in-out infinite;
-      }
-      .float-4 {
-        animation: float4 8s ease-in-out infinite;
-      }
-      .float-5 {
-        animation: float5 5.5s ease-in-out infinite;
-      }
-
-      @keyframes float1 {
-        0%,100% { transform: translateY(0px) rotate(-1deg); }
-        50%      { transform: translateY(-12px) rotate(1deg); }
-      }
-      @keyframes float2 {
-        0%,100% { transform: translateY(0px) rotate(1.5deg); }
-        50%      { transform: translateY(-8px) rotate(-1deg); }
-      }
-      @keyframes float3 {
-        0%,100% { transform: translateY(-4px) rotate(0deg); }
-        50%      { transform: translateY(8px) rotate(-2deg); }
-      }
-      @keyframes float4 {
-        0%,100% { transform: translateY(0px) rotate(-2deg); }
-        50%      { transform: translateY(-14px) rotate(1deg); }
-      }
-      @keyframes float5 {
-        0%,100% { transform: translateY(2px) rotate(1deg); }
-        50%      { transform: translateY(-10px) rotate(-1.5deg); }
-      }
-
       .label { font-family: 'Segoe UI', sans-serif; font-size: 13px; font-weight: 600; fill: #e2e8f0; }
       .sub   { font-family: 'Segoe UI', sans-serif; font-size: 10px; fill: #94a3b8; }
-      .dot   { font-size: 18px; }
+
+      .row1 { animation: scrollLeft 18s linear infinite; }
+      .row2 { animation: scrollLeft 12s linear infinite; }
+
+      @keyframes scrollLeft {
+        0%   { transform: translateX(0px); }
+        100% { transform: translateX(-820px); }
+      }
     </style>
   </defs>
 
-  <!-- Background -->
-  <rect width="800" height="200" fill="#0d1117" rx="16"/>
+  <rect width="800" height="180" fill="#0d1117" rx="16"/>
 
-  <!-- Card 1: Claude Code — slow float -->
-  <g class="card float-1" transform="translate(30, 30)">
-    <rect width="155" height="56" rx="14" ry="14" fill="#1e293b" stroke="#334155" stroke-width="1"/>
-    <text x="14" y="24" class="dot">🤖</text>
-    <text x="40" y="23" class="label">Claude Code</text>
-    <text x="40" y="38" class="sub">Agentic coding</text>
+  <g clip-path="url(#bounds)">
+
+    <!-- ROW 1 slow (y=14) -->
+    <g class="row1">
+      <g transform="translate(0, 14)">
+        <rect width="160" height="54" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">🤖</text>
+        <text x="38" y="23" class="label">Claude Code</text>
+        <text x="38" y="38" class="sub">Agentic coding</text>
+      </g>
+      <g transform="translate(190, 14)">
+        <rect width="170" height="54" rx="12" fill="#0f2027" stroke="#00D4FF" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">🛡️</text>
+        <text x="38" y="23" class="label">Self-Healing CI/CD</text>
+        <text x="38" y="38" class="sub">Autonomous DevOps</text>
+      </g>
+      <g transform="translate(390, 14)">
+        <rect width="140" height="54" rx="12" fill="#1a1a2e" stroke="#EE342F" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">🗄️</text>
+        <text x="38" y="23" class="label">Convex</text>
+        <text x="38" y="38" class="sub">Real-time backend</text>
+      </g>
+      <g transform="translate(560, 14)">
+        <rect width="150" height="54" rx="12" fill="#1e1a2e" stroke="#4c1d95" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">⚙️</text>
+        <text x="38" y="23" class="label">n8n Workflows</text>
+        <text x="38" y="38" class="sub">Multi-agent pipes</text>
+      </g>
+      <!-- Seamless repeat -->
+      <g transform="translate(820, 14)">
+        <rect width="160" height="54" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">🤖</text>
+        <text x="38" y="23" class="label">Claude Code</text>
+        <text x="38" y="38" class="sub">Agentic coding</text>
+      </g>
+      <g transform="translate(1010, 14)">
+        <rect width="170" height="54" rx="12" fill="#0f2027" stroke="#00D4FF" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">🛡️</text>
+        <text x="38" y="23" class="label">Self-Healing CI/CD</text>
+        <text x="38" y="38" class="sub">Autonomous DevOps</text>
+      </g>
+      <g transform="translate(1210, 14)">
+        <rect width="140" height="54" rx="12" fill="#1a1a2e" stroke="#EE342F" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">🗄️</text>
+        <text x="38" y="23" class="label">Convex</text>
+        <text x="38" y="38" class="sub">Real-time backend</text>
+      </g>
+      <g transform="translate(1380, 14)">
+        <rect width="150" height="54" rx="12" fill="#1e1a2e" stroke="#4c1d95" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">⚙️</text>
+        <text x="38" y="23" class="label">n8n Workflows</text>
+        <text x="38" y="38" class="sub">Multi-agent pipes</text>
+      </g>
+    </g>
+
+    <!-- ROW 2 fast (y=98, offset start so rows feel staggered) -->
+    <g class="row2" transform="translate(-200, 0)">
+      <g transform="translate(0, 98)">
+        <rect width="160" height="54" rx="12" fill="#0c2a3a" stroke="#2CA5E0" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">💬</text>
+        <text x="38" y="23" class="label">Telegram + LINE</text>
+        <text x="38" y="38" class="sub">Bot architecture</text>
+      </g>
+      <g transform="translate(190, 98)">
+        <rect width="130" height="54" rx="12" fill="#1a2e1a" stroke="#22c55e" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">🔌</text>
+        <text x="38" y="23" class="label">MCP Servers</text>
+        <text x="38" y="38" class="sub">Tool orchestration</text>
+      </g>
+      <g transform="translate(350, 98)">
+        <rect width="120" height="54" rx="12" fill="#1a2035" stroke="#2C4F7C" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">⚡</text>
+        <text x="38" y="23" class="label">SolidJS</text>
+        <text x="38" y="38" class="sub">Reactive UI</text>
+      </g>
+      <g transform="translate(500, 98)">
+        <rect width="120" height="54" rx="12" fill="#1a1a2e" stroke="#7c3aed" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">🔐</text>
+        <text x="38" y="23" class="label">Clerk</text>
+        <text x="38" y="38" class="sub">Zero-config auth</text>
+      </g>
+      <g transform="translate(650, 98)">
+        <rect width="145" height="54" rx="12" fill="#1a1e2e" stroke="#3b82f6" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">📱</text>
+        <text x="38" y="23" class="label">React Native</text>
+        <text x="38" y="38" class="sub">Cross-platform</text>
+      </g>
+      <!-- Seamless repeat -->
+      <g transform="translate(820, 98)">
+        <rect width="160" height="54" rx="12" fill="#0c2a3a" stroke="#2CA5E0" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">💬</text>
+        <text x="38" y="23" class="label">Telegram + LINE</text>
+        <text x="38" y="38" class="sub">Bot architecture</text>
+      </g>
+      <g transform="translate(1010, 98)">
+        <rect width="130" height="54" rx="12" fill="#1a2e1a" stroke="#22c55e" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">🔌</text>
+        <text x="38" y="23" class="label">MCP Servers</text>
+        <text x="38" y="38" class="sub">Tool orchestration</text>
+      </g>
+      <g transform="translate(1170, 98)">
+        <rect width="120" height="54" rx="12" fill="#1a2035" stroke="#2C4F7C" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">⚡</text>
+        <text x="38" y="23" class="label">SolidJS</text>
+        <text x="38" y="38" class="sub">Reactive UI</text>
+      </g>
+      <g transform="translate(1320, 98)">
+        <rect width="120" height="54" rx="12" fill="#1a1a2e" stroke="#7c3aed" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">🔐</text>
+        <text x="38" y="23" class="label">Clerk</text>
+        <text x="38" y="38" class="sub">Zero-config auth</text>
+      </g>
+      <g transform="translate(1470, 98)">
+        <rect width="145" height="54" rx="12" fill="#1a1e2e" stroke="#3b82f6" stroke-width="1"/>
+        <text x="14" y="23" font-size="16">📱</text>
+        <text x="38" y="23" class="label">React Native</text>
+        <text x="38" y="38" class="sub">Cross-platform</text>
+      </g>
+    </g>
+
   </g>
-
-  <!-- Card 2: n8n — medium float -->
-  <g class="card float-2" transform="translate(215, 15)">
-    <rect width="135" height="56" rx="14" ry="14" fill="#1e1a2e" stroke="#4c1d95" stroke-width="1"/>
-    <text x="14" y="24" class="dot">⚙️</text>
-    <text x="40" y="23" class="label">n8n Workflows</text>
-    <text x="40" y="38" class="sub">Multi-agent pipes</text>
-  </g>
-
-  <!-- Card 3: Convex — fast float -->
-  <g class="card float-3" transform="translate(380, 50)">
-    <rect width="130" height="56" rx="14" ry="14" fill="#1a1a2e" stroke="#EE342F" stroke-width="1"/>
-    <text x="14" y="24" class="dot">🗄️</text>
-    <text x="40" y="23" class="label">Convex</text>
-    <text x="40" y="38" class="sub">Real-time backend</text>
-  </g>
-
-  <!-- Card 4: Telegram Bot — slowest -->
-  <g class="card float-4" transform="translate(540, 20)">
-    <rect width="145" height="56" rx="14" ry="14" fill="#0c2a3a" stroke="#2CA5E0" stroke-width="1"/>
-    <text x="14" y="24" class="dot">💬</text>
-    <text x="40" y="23" class="label">Telegram &amp; LINE</text>
-    <text x="40" y="38" class="sub">Bot architecture</text>
-  </g>
-
-  <!-- Card 5: Self-Healing — medium-fast -->
-  <g class="card float-5" transform="translate(100, 120)">
-    <rect width="175" height="56" rx="14" ry="14" fill="#0f2027" stroke="#00D4FF" stroke-width="1"/>
-    <text x="14" y="24" class="dot">🛡️</text>
-    <text x="40" y="23" class="label">Self-Healing CI/CD</text>
-    <text x="40" y="38" class="sub">Autonomous DevOps</text>
-  </g>
-
-  <!-- Card 6: MCP — different speed -->
-  <g class="card float-2" transform="translate(320, 118)">
-    <rect width="130" height="56" rx="14" ry="14" fill="#1a2e1a" stroke="#22c55e" stroke-width="1"/>
-    <text x="14" y="24" class="dot">🔌</text>
-    <text x="40" y="23" class="label">MCP Servers</text>
-    <text x="40" y="38" class="sub">Tool orchestration</text>
-  </g>
-
-  <!-- Card 7: SolidJS -->
-  <g class="card float-4" transform="translate(490, 115)">
-    <rect width="130" height="56" rx="14" ry="14" fill="#1a2035" stroke="#2C4F7C" stroke-width="1"/>
-    <text x="14" y="24" class="dot">⚡</text>
-    <text x="40" y="23" class="label">SolidJS</text>
-    <text x="40" y="38" class="sub">Reactive UI</text>
-  </g>
-
 </svg>
