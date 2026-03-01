@@ -67,7 +67,6 @@ Since AI tooling exploded, I've gone deep — not just as a user, but as a build
 | 💬 **Conversational AI** | Telegram Bots · LINE Apps · Chatbot Architecture · Session Management |
 | 🖥️ **AI-Native Dev** | Claude Code · Codex · Cursor · AI-assisted TDD |
 | 📱 **Mobile & Web** | React Native · React · TypeScript · Expo · REST / GraphQL |
-| 🐳 **Dev Environments** | Docker · Linux · Automated Setup · AI-enhanced Toolchains |
 
 </div>
 
