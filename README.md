@@ -80,9 +80,10 @@ Since AI tooling exploded, I've gone deep — not just as a user, but as a build
 |---|---|---|
 | ⚡ | **SolidJS** | Fine-grained reactivity, no virtual DOM, insanely fast |
 | 🗄️ | **Convex** | Real-time backend + DB in one — pairs perfectly with AI apps |
-| 🔐 | **Clerk** | Auth done right, zero boilerplate, works out of the box |
+| 🐍 | **Python Agentic** | Multi-agent orchestration, tool-use loops, autonomous task runners |
+| ⚙️ | **n8n** | Visual automation that actually scales — webhooks, AI nodes, multi-step flows |
 
-> *The stack I reach for when I want to ship fast and scale clean.*
+> *The stack I reach for when I want to ship fast, automate deep, and scale clean.*
 
 </div>
 
