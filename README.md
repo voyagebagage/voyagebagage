@@ -13,9 +13,11 @@
   <img src="https://raw.githubusercontent.com/voyagebagage/voyagebagage/main/floating-cards1.svg" alt="Tech Stack" />
 </div>
 
----
+<div align="center">
+  
 ## 🔁 Before AI → After AI
-
+  
+</div>
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -53,8 +55,6 @@ Since AI tooling exploded, I've gone deep — not just as a user, but as a build
 </td>
 </tr>
 </table>
-
----
 
 ## 🔥 Hot Skills Companies Are Hiring For Right Now
 
