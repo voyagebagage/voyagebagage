@@ -56,7 +56,7 @@ Since AI tooling exploded, I've gone deep — not just as a user, but as a build
 </tr>
 </table>
 
-## 🔥 Hot Skills Companies Are Hiring For Right Now
+## 🔥 Hot Skills 
 
 <div align="center">
 
