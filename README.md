@@ -40,9 +40,7 @@ Spent years building production-grade apps across the full web & mobile stack:
 ### 🤖 Post-AI Stack *(the evolution)*
 Since AI tooling exploded, I've gone deep — not just as a user, but as a builder *with* these tools:
 
-- **Claude API & Claude Environment** — prompt engineering, tool use, MCP integration
-- **Claude Code** — agentic coding sessions, autonomous refactoring & generation
-- **OpenClaude / MCP Servers** — custom tool orchestration & context injection
+- **Claude Code** — prompt engineering, agentic coding sessions, autonomous refactoring & generation
 - **n8n** — visual automation pipelines, webhook flows, multi-step AI workflows
 - **Agentic Workflows** — multi-agent systems, task decomposition, autonomous loops
 - **OpenAI Codex** — code generation, completion & AI-assisted dev cycles
