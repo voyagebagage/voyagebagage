@@ -11,6 +11,10 @@
 </div>
 
 ---
+<div align="center">
+  <img src="./floating-cards.svg" alt="Tech Stack" />
+</div>
+---
 
 ## 🔁 Before AI → After AI
 
