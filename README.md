@@ -9,15 +9,11 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Full-Stack+%E2%86%92+AI+Systems+Engineer;Claude+%7C+MCP+%7C+Claude+Code;n8n+%7C+Agentic+%7C+Multi-Agent;Telegram+%7C+LINE+%7C+Bot+Architect;Convex+%7C+Clerk+%7C+SolidJS)](https://git.io/typing-svg)
 
 </div>
-
----
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/voyagebagage/voyagebagage/main/floating-cards.svg" alt="Tech Stack" />
 </div>
 
 ---
-
 ## 🔁 Before AI → After AI
 
 <table>
