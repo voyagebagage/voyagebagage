@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🌊 Olivier — voyagebagage
+# 🌊 Olivier <img width="47" height="47" alt="image" src="https://github.com/user-attachments/assets/61b34c2d-c5b4-4e9b-8df2-b4c1abb35b52" />
+
+<!-- <img width="747" height="747" alt="image" src="https://github.com/user-attachments/assets/61b34c2d-c5b4-4e9b-8df2-b4c1abb35b52" /> -->
 
 ### Full-Stack Developer → AI Systems Engineer
 
