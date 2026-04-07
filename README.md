@@ -8,7 +8,7 @@
 
 *From crafting pixel-perfect mobile apps to orchestrating autonomous agent pipelines*
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Full-Stack+%E2%86%92+AI+Systems+Engineer;Claude+%7C+MCP+%7C+Claude+Code;n8n+%7C+Agentic+%7C+Multi-Agent;Telegram+%7C+LINE+%7C+Bot+Architect;Convex+%7C+Clerk+%7C+SolidJS)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Full-Stack+%E2%86%92+AI+Systems+Engineer;Claude+Code+%7C+Codex+%7C+WarpOz;Agentic+%7C+Multi-Agent+%7C+n8n;Telegram+%7C+LINE+%7C+Bot+Architect;Convex+%7C+Nextjs+%7C+SolidJS)](https://git.io/typing-svg)
 
 </div>
 <div align="center">
