@@ -2,7 +2,7 @@ import { mutation, query } from "./_generated/server";
 import { v } from "convex/values";
 import { internal } from "./_generated/api";
 import { Doc } from "./_generated/dataModel";
-import { requireMember } from "./lib";
+import { requireMember, formatDue } from "./lib";
 
 /** All todos for my family, newest-relevant first. */
 export const list = query({
@@ -51,10 +51,11 @@ export const add = mutation({
     });
     // If this task was created for someone else, let them know right away.
     if (args.assigneeId && args.assigneeId !== member._id) {
+      const body = args.dueAt ? `${title} · 📅 due ${formatDue(args.dueAt)}` : title;
       await ctx.scheduler.runAfter(0, internal.push.notifyMember, {
         memberId: args.assigneeId,
         title: `📝 New task from ${member.name}`,
-        body: title,
+        body,
         url: "/",
         fromMemberId: member._id,
       });
@@ -158,10 +159,13 @@ export const suggest = mutation({
       suggestedById: member._id,
       suggestedAt: Date.now(),
     });
+    const body = todo.dueAt
+      ? `${todo.title} · 📅 due ${formatDue(todo.dueAt)}`
+      : todo.title;
     await ctx.scheduler.runAfter(0, internal.push.notifyMember, {
       memberId: toMemberId,
       title: `👉 ${member.name} suggests you do this next`,
-      body: todo.title,
+      body,
       url: "/",
       fromMemberId: member._id,
     });

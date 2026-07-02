@@ -18,6 +18,9 @@ send to your partner.
 - ⏰ **Overdue nudges** — pinged when a task passes its due date
 - 👀 **Stale-task teasing** — "You still haven't done that — it's been a whole week!"
 - ☀️ **Daily summary** — a morning push of what's on your plate
+- 📆 **Add to calendar** — tasks with a due date get an "Add to calendar" button
+  that drops a `.ics` event (with a 30-min reminder) into Apple/Google Calendar;
+  due dates are also spelled out in the push text
 - 📱 Installable to the home screen on Android & iOS (iOS 16.4+)
 
 ---
@@ -177,4 +180,9 @@ app/
   tokens authorize requests. Great for a private family app, not for public use.
 - **Cron timezones** in `convex/crons.ts` are in **UTC** — adjust `hourUTC` to your
   timezone (the daily summary defaults to 00:00 UTC ≈ 07:00 Bangkok).
+- **Due dates in push text** are formatted with the `DISPLAY_TZ` env var
+  (defaults to `Asia/Bangkok`): `pnpm exec convex env set DISPLAY_TZ "Europe/Paris"`.
+- **Calendar isn't written silently** — the web can't add native calendar events
+  without a tap, so "Add to calendar" hands off an `.ics` (event + reminder) that
+  iOS/Android open in their calendar app.
 - Regenerate icons anytime with `node scripts/generate-icons.mjs`.

@@ -3,6 +3,7 @@ import { useMutation } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import { Id } from "../../convex/_generated/dataModel";
 import type { Member } from "./TodoApp";
+import { addToCalendar } from "../lib/calendar";
 
 interface Todo {
   _id: Id<"todos">;
@@ -79,6 +80,15 @@ export default function TodoItem({
       </div>
 
       <div className="todo-actions">
+        {todo.dueAt && !todo.done && (
+          <button
+            className="icon"
+            title="Add to calendar / reminder"
+            onClick={() => addToCalendar(todo)}
+          >
+            📆
+          </button>
+        )}
         {!todo.done && members.length > 1 && (
           <button
             className="icon"

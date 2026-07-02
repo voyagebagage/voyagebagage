@@ -31,3 +31,24 @@ export function newToken(): string {
 export function normalizeCode(code: string): string {
   return code.trim().toLowerCase().replace(/\s+/g, "");
 }
+
+/**
+ * Human-friendly due date for notification text, e.g. "Tue, Jul 7, 18:00".
+ * Uses DISPLAY_TZ (default Asia/Bangkok); falls back gracefully if the runtime
+ * lacks timezone data.
+ */
+export function formatDue(ms: number): string {
+  const timeZone = process.env.DISPLAY_TZ || "Asia/Bangkok";
+  try {
+    return new Intl.DateTimeFormat("en-GB", {
+      weekday: "short",
+      month: "short",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      timeZone,
+    }).format(new Date(ms));
+  } catch {
+    return new Date(ms).toUTCString();
+  }
+}
