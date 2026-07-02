@@ -56,6 +56,7 @@ export const add = mutation({
         title: `📝 New task from ${member.name}`,
         body: title,
         url: "/",
+        fromMemberId: member._id,
       });
     }
     return todoId;
@@ -86,6 +87,7 @@ export const toggle = mutation({
         title: `✅ ${member.name} finished a task`,
         body: todo.title,
         url: "/",
+        fromMemberId: member._id,
       });
     }
   },
@@ -161,6 +163,7 @@ export const suggest = mutation({
       title: `👉 ${member.name} suggests you do this next`,
       body: todo.title,
       url: "/",
+      fromMemberId: member._id,
     });
   },
 });

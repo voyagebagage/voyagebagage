@@ -1,4 +1,9 @@
-import { mutation, query, MutationCtx } from "./_generated/server";
+import {
+  mutation,
+  query,
+  internalQuery,
+  MutationCtx,
+} from "./_generated/server";
 import { v } from "convex/values";
 import { Id } from "./_generated/dataModel";
 import { newToken, normalizeCode, requireMember } from "./lib";
@@ -98,6 +103,12 @@ export const me = query({
       })),
     };
   },
+});
+
+/** Internal: fetch a member by id (used by the push-sender to theme messages). */
+export const getMemberInternal = internalQuery({
+  args: { id: v.id("members") },
+  handler: (ctx, { id }) => ctx.db.get(id),
 });
 
 /** Touch lastSeen so we know who's active (used by daily-summary cron). */

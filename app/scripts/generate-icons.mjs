@@ -138,7 +138,150 @@ function draw(size, padScale) {
   return encodePNG(size, size, buf);
 }
 
+// ---- geometry helpers for the notification icons ----
+
+// Signed distance to a rounded rectangle centered at (cx, cy).
+function roundedRectDist(x, y, cx, cy, halfW, halfH, r) {
+  const dx = Math.abs(x - cx) - halfW + r;
+  const dy = Math.abs(y - cy) - halfH + r;
+  const outside = Math.hypot(Math.max(dx, 0), Math.max(dy, 0));
+  const inside = Math.min(Math.max(dx, dy), 0);
+  return outside + inside - r;
+}
+
+// Multi-stop gradient sample. stops = [[t, [r,g,b]], ...] with t in 0..1.
+function multiStop(stops, t) {
+  t = Math.max(0, Math.min(1, t));
+  for (let i = 0; i < stops.length - 1; i++) {
+    const [t0, c0] = stops[i];
+    const [t1, c1] = stops[i + 1];
+    if (t >= t0 && t <= t1) {
+      const k = (t - t0) / (t1 - t0 || 1);
+      return [lerp(c0[0], c1[0], k), lerp(c0[1], c1[1], k), lerp(c0[2], c1[2], k)];
+    }
+  }
+  return stops[stops.length - 1][1];
+}
+
+function pointInPoly(px, py, poly) {
+  let inside = false;
+  for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
+    const [xi, yi] = poly[i];
+    const [xj, yj] = poly[j];
+    if (yi > py !== yj > py && px < ((xj - xi) * (py - yi)) / (yj - yi) + xi) {
+      inside = !inside;
+    }
+  }
+  return inside;
+}
+
+// Instagram-style icon: gradient tile + white camera outline, lens ring, flash dot.
+function drawInstagram(size) {
+  const buf = Buffer.alloc(size * size * 4);
+  const bgRadius = size * 0.24;
+  const set = (x, y, r, g, b, a = 255) => {
+    const i = (y * size + x) * 4;
+    buf[i] = r;
+    buf[i + 1] = g;
+    buf[i + 2] = b;
+    buf[i + 3] = a;
+  };
+  // Instagram's signature warm-to-cool diagonal gradient.
+  const stops = [
+    [0.0, [254, 218, 117]],
+    [0.25, [250, 126, 30]],
+    [0.5, [214, 41, 118]],
+    [0.75, [150, 47, 191]],
+    [1.0, [79, 91, 213]],
+  ];
+  const cx = size / 2;
+  const cy = size / 2;
+  const bodyHalf = size * 0.26;
+  const bodyStroke = size * 0.075;
+  const lensR = size * 0.155;
+  const lensStroke = size * 0.07;
+  const dotR = size * 0.032;
+  const dotX = cx + size * 0.145;
+  const dotY = cy - size * 0.145;
+
+  for (let y = 0; y < size; y++) {
+    for (let x = 0; x < size; x++) {
+      const outer = roundedRectDist(x, y, cx, cy, size / 2, size / 2, bgRadius);
+      if (outer > 0) {
+        set(x, y, 0, 0, 0, 0);
+        continue;
+      }
+      const t = (x + (size - y)) / (2 * size); // bottom-left -> top-right
+      const [r, g, b] = multiStop(stops, t);
+      set(x, y, r, g, b, 255);
+
+      // white camera body outline
+      const body = roundedRectDist(x, y, cx, cy, bodyHalf, bodyHalf, size * 0.14);
+      let white = Math.abs(body) <= bodyStroke / 2;
+      // lens ring
+      const dl = Math.hypot(x - cx, y - cy);
+      if (Math.abs(dl - lensR) <= lensStroke / 2) white = true;
+      // flash dot
+      if (Math.hypot(x - dotX, y - dotY) <= dotR) white = true;
+      if (white) set(x, y, 255, 255, 255, 255);
+    }
+  }
+  return encodePNG(size, size, buf);
+}
+
+// Flashy personal icon: neon radial tile + bold white lightning bolt.
+function drawFlashy(size) {
+  const buf = Buffer.alloc(size * size * 4);
+  const bgRadius = size * 0.24;
+  const cx = size / 2;
+  const cy = size / 2;
+  const maxD = Math.hypot(size / 2, size / 2);
+  const bolt = [
+    [0.58, 0.06],
+    [0.3, 0.54],
+    [0.48, 0.54],
+    [0.4, 0.94],
+    [0.74, 0.4],
+    [0.54, 0.4],
+    [0.64, 0.06],
+  ];
+  const set = (x, y, r, g, b, a = 255) => {
+    const i = (y * size + x) * 4;
+    buf[i] = r;
+    buf[i + 1] = g;
+    buf[i + 2] = b;
+    buf[i + 3] = a;
+  };
+  for (let y = 0; y < size; y++) {
+    for (let x = 0; x < size; x++) {
+      if (roundedRectDist(x, y, cx, cy, size / 2, size / 2, bgRadius) > 0) {
+        set(x, y, 0, 0, 0, 0);
+        continue;
+      }
+      // radial neon: hot yellow core -> electric magenta edge
+      const t = Math.hypot(x - cx, y - cy) / maxD;
+      const [r, g, b] = multiStop(
+        [
+          [0.0, [255, 242, 0]],
+          [0.55, [255, 94, 0]],
+          [1.0, [255, 0, 200]],
+        ],
+        t,
+      );
+      set(x, y, r, g, b, 255);
+      if (pointInPoly(x / size, y / size, bolt)) {
+        set(x, y, 255, 255, 255, 255);
+      }
+    }
+  }
+  return encodePNG(size, size, buf);
+}
+
 writeFileSync(join(OUT, "icon-512.png"), draw(512, 0.04));
 writeFileSync(join(OUT, "icon-192.png"), draw(192, 0.04));
 writeFileSync(join(OUT, "icon-maskable-512.png"), draw(512, 0.12));
+writeFileSync(join(OUT, "instagram-512.png"), drawInstagram(512));
+writeFileSync(join(OUT, "instagram-192.png"), drawInstagram(192));
+writeFileSync(join(OUT, "flashy-512.png"), drawFlashy(512));
+writeFileSync(join(OUT, "flashy-192.png"), drawFlashy(192));
 console.log("Wrote icons to", OUT);
