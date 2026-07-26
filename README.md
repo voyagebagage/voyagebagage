@@ -1,140 +1,67 @@
-<div align="center" >
-
-# 🌊 Olivier <img width="47" height="47" alt="image" src="https://github.com/user-attachments/assets/61b34c2d-c5b4-4e9b-8df2-b4c1abb35b52" />
-
-<!-- <img width="747" height="747" alt="image" src="https://github.com/user-attachments/assets/61b34c2d-c5b4-4e9b-8df2-b4c1abb35b52" /> -->
-
-### Full-Stack Developer → AI Systems Engineer
-
-*From crafting pixel-perfect mobile apps to orchestrating autonomous agent pipelines*
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Full-Stack+%E2%86%92+AI+Systems+Engineer;Claude+Code+%7C+Codex+%7C+WarpOz;Agentic+%7C+Multi-Agent+%7C+n8n;Telegram+%7C+LINE+%7C+Bot+Architect;Convex+%7C+Nextjs+%7C+SolidJS)](https://git.io/typing-svg)
-
-</div>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/voyagebagage/voyagebagage/main/floating-cards1.svg" alt="Tech Stack" />
-</div>
 
-<div align="center">
-  
-## 🔁 Before AI → After AI
-  
-<table>
-<tr>
-<td width="50%" valign="top">
+# Olivier Frugier
 
-### 🏗️ Pre-AI Stack *(the foundation)*
-Spent years building production-grade apps across the full web & mobile stack:
+### React & Full-Stack Engineer — AI Products
 
-- **React Native** — cross-platform mobile (HappyCow clone, gamification dashboards)
-- **React / JavaScript / TypeScript** — scalable frontend architecture
-- **Node.js / REST APIs** — backend services & integration
-- **Expo** — rapid mobile prototyping & deployment
-- **UI/UX** — component design, animation, performance tuning
-- **Git workflows** — PR reviews, CI/CD, team collaboration
+TypeScript · React · AI and voice integration · Node.js
 
+Koh Phangan, Thailand · Open to relocation to Berlin or Sofia
 
-</td></tr>
-</table>
-</div>
-
-<table align="center" width="80%"> 
-   <tr >
-       
-## 🛠️ Tech I Work With
-       
-     
-   </tr>
-
-
-  <tr align="center" valign="top">
-    <!-- Colonne 1: CLI -->
-    <td >
-      <h3>CLI</h3>
-    </td>
-    <!-- Colonne 2: Backend -->
-    <td>
-      <h3>Workflow Automation Platform</h3>
-   </td>
-    <!-- Colonne 4: Script -->
-     <td >
-   <h3>Script</h3>
-   </td>
-    <!-- Colonne 2: Backend -->
-    <td >
-      <h3>Backend</h3>
-   </td>
-    <!-- Colonne 3: Auth -->
-    <td >
-      <h3>Host</h3>
- </td>
-    <!-- Colonne 3: Auth -->
-    <td>
-      <h3>Auth</h3>
- </td>
-  </tr>
-  
-<tr align="center"> 
-  <td>
-       
-![Codex](https://img.shields.io/badge/codex-412991?style=for-the-badge&logo=terminus)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-  </td>
-
-  
-
-<td>
-  
-
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-</td>
-
-<td>
-  
-![python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=yellow)
-</td>
-<td>
-  
-
-![Convex](https://img.shields.io/badge/Convex-EE342F?style=for-the-badge&logo=convex&logoColor=white)
-</td>
-<td>
-  
-![cloudflarepages](https://img.shields.io/badge/cloudflarepages-F38020?style=for-the-badge&logo=cloudflarepages&logoColor=white)
-![cloudflareworkers](https://img.shields.io/badge/cloudflareworkers-F38020?style=for-the-badge&logo=cloudflarepages&logoColor=white)
-![vercel](https://img.shields.io/badge/vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-</td>
-
-<td>
-
-![clerk](https://img.shields.io/badge/clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white)
-
-  
-</td>
-
-</tr>
-</table> 
-
-
----
-
-## 💡 What I'm Building
-
-```
-🔧 AI-powered automation pipelines with codex
-🤖 Agentic workflows that replace entire manual processes
-📱 Telegram & LINE bots with real intelligence behind them
-🧪 Dev environments wired for AI-first development
-🌐 Full-stack apps with AI deeply integrated — not bolted on
-```
----
-
-<div align="center"> 
-
-*"The developers who will thrive aren't the ones who fear AI — they're the ones who know how to direct it."*
-
-**Open to exciting roles at the intersection of AI + Engineering**
-
-[![GitHub](https://img.shields.io/badge/GitHub-voyagebagage-181717?style=flat&logo=github)](https://github.com/voyagebagage)
+[LinkedIn](https://www.linkedin.com/in/oliv-dev/) · [Email](mailto:bonjour@sunshiftai.com)
 
 </div>
+
+## About
+
+Full-stack engineer with five years of hands-on experience building products through employment, client work, and independent development. I work primarily with React, TypeScript, and Node.js, and regularly take products from requirements through implementation, integration, and deployment.
+
+At Sunshift AI, I create automated AI workflows for international clients with human review and control where needed. I also build and maintain AI workflows for my own operational use, including Python/FastAPI services that expose hosted scripts and Playwright browser automation as workflow tools.
+
+## Selected projects
+
+### CallSIMless — browser-based voice PWA
+
+`React 19` `TypeScript` `Astro` `Twilio Voice` `WebRTC` `Cloudflare`
+
+- Building a mobile-first international calling PWA with a browser dialer, country search and phone-number handling, native contact import, and installable PWA support.
+- Built Cloudflare Pages Functions for Twilio token issuance and call routing, with automated tests for core calling and phone-number logic.
+- End-to-end calling is validated with verified test numbers; public calling is pending provider approval.
+
+### NannyLoop — childcare coordination and nanny marketplace
+
+`React 18` `TypeScript` `Convex` `Tailwind CSS` `Radix UI` `Telegram`
+
+- Building a family-centered childcare platform combining private care circles with a request-first nanny marketplace.
+- Implemented multi-role onboarding, family invitations, weekly scheduling, childcare requests, nanny bids with time slots and rates, parent offer selection, and confirmed marketplace bookings.
+- Built the reactive backend with Convex, including booking persistence, duplicate-booking prevention, competing-bid rejection, and calendar integration.
+
+### [Ableton Loop Visualizer](https://github.com/voyagebagage/ableton-loop-visualizer)
+
+`TypeScript` `SolidJS` `Canvas 2D` `Bun` `Electrobun` `OSC` `WebSockets`
+
+- Building a cross-platform Ableton Live companion that renders real-time circular loop visualizations from OSC and WebSocket data.
+- Separated high-frequency playback data from reactive UI state to maintain smooth 60 FPS rendering.
+
+## Selected experience
+
+- **Sunshift AI — AI Engineer:** Design and deploy automated AI workflows for international clients, adapting human review and control to each client's requirements.
+- **Wildminer Hash — Front-End Developer:** Built a Next.js and React crypto-mining Telegram Web App integrated with the project's Telegram bot.
+- **We Deliver — Full-Stack Developer:** Sole developer of a meal-delivery platform with a Next.js frontend, Hono backend, Telegram rider bot, and approximately 300 restaurant records migrated to Cloudflare D1.
+- **Ninja Partners — Full-Stack Developer:** Sole developer of a React gamification dashboard for managers and agents, backed by AWS Amplify, GraphQL, and DynamoDB.
+
+## Technologies
+
+- **Frontend:** React, React Router 7, TypeScript, Next.js, React Native, Astro, SolidJS, Tailwind CSS, Radix UI
+- **Backend and data:** Node.js, Python, FastAPI, Hono, Express, REST APIs, Convex, GraphQL, Cloudflare D1/SQLite, DynamoDB, MongoDB
+- **AI and voice:** AI workflow automation, LLM API integration, human-in-the-loop systems, n8n, Vapi, Twilio Voice/WebRTC, Playwright, MCP integrations
+- **Cloud and tooling:** Docker, GitHub Actions, continuous deployment, Cloudflare Workers and Pages, AWS, Git, Linux, automated testing, OpenAI Codex CLI
+- **Additional:** Telegram Bot API, Bun, Tauri, Rust, Canvas 2D, OSC, WebSockets
+
+## Current interests
+
+- React-first interfaces for complex, real-world workflows
+- Voice products and browser-based communication
+- AI automation with deliberate human control
+- Reliable deployment workflows and developer tooling
+
