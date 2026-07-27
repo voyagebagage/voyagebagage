@@ -6,7 +6,7 @@
 
 TypeScript · React · AI and voice integration · Node.js
 
-Koh Phangan, Thailand · Open to relocation to Berlin or Sofia
+Koh Phangan, Thailand · Open to relocation
 
 [LinkedIn](https://www.linkedin.com/in/oliv-dev/) · [Email](mailto:bonjour@sunshiftai.com)
 
