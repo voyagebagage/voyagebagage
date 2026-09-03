@@ -1,8 +1,6 @@
 <div align="center">
 
-# Olivier Frugier
-
-### React & Full-Stack Engineer — AI Products
+## React & Full-Stack Engineer — AI Products
 
 TypeScript · React · AI and voice integration · Node.js
 
