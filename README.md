@@ -6,7 +6,7 @@ TypeScript · React · AI and voice integration · Node.js
 
 Koh Phangan, Thailand · Open to relocation
 
-[LinkedIn](https://www.linkedin.com/in/oliv-dev/) · [Email](mailto:bonjour@sunshiftai.com)
+[Email](mailto:job.statute802@passinbox.com)
 
 </div>
 
